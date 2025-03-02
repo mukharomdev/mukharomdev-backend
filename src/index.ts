@@ -1,7 +1,6 @@
 // // src/index.ts
 import 'module-alias/register';
 import {express,dotenv}  from "@/libraries";
-//import {getPostSlugs,getPostBySlug,markdownToHtml} from '@/utils'
 
 /*
  * Load up and parse configuration details from
@@ -23,16 +22,7 @@ const port = process.env.PORT || 3000;
  app.get("/", (req, res) => {
   const message = 
   "<h1>Express + PostGresSql + Sequleize TypeScript Server</h1>"
-  // const posts = getPostSlugs()
-  // const content = getPostBySlug(posts[0]).content
-  // const content1 = content.replace(/(^|\W)`([^`\n]+)`(\W|$)/g, '$1<code>$2</code>$3')  
-  // const html  = markdownToHtml(content1)
-  // .then(n=>res.send(n))
-         
-
-
-  
-    res.send(message);
+      res.send(message);
 });
 
 /* Start the Express app and listen
