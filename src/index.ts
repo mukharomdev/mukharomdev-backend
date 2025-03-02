@@ -1,4 +1,5 @@
 // // src/index.ts
+import 'module-alias/register';
 import {express,dotenv}  from "@/libraries";
 //import {getPostSlugs,getPostBySlug,markdownToHtml} from '@/utils'
 
