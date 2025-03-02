@@ -41,8 +41,9 @@
     "@types/node": "^20.12.7",
     "@types/pg": "^8.11.11",
     "@types/sequelize": "^4.28.20",
-    "nodemon": "^3.1.0",
+    "nodemon": "^3.1.9",
     "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.4.5"
   }
